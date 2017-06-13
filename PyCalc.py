@@ -8,11 +8,13 @@
 def doMath(x, y, act):
   if(act=="+"):
     return x+y
+  elif(act=="-"):
+    return (x-y)
   
 
 
 x = int(input("insert first number and press ENTER..."))
-act=input("enter operation + - * /")
+act=input("enter operation + - * /:  ")
 y = int(input("insert second number and press ENTER..."))
-print(doMath(y, x, act))
+print(doMath(x, y, act))
 
