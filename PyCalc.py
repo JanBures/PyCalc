@@ -17,7 +17,7 @@ def doMath(x, y, act):
     try:
       result = x/y
     except ZeroDivisionError:
-      print("Nelze dělit nulou")
+      print("Nelze dělit nulou!")
       exit()
     return result 
   
