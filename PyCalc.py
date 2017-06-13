@@ -8,7 +8,6 @@
 def doMath(x, y, act):
   if(act=="+"):
     return x+y
-
   
 
 
