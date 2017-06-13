@@ -10,6 +10,16 @@ def doMath(x, y, act):
     return x+y
   elif(act=="-"):
     return (x-y)
+  elif(act=="*"):
+    return x*y
+  elif(act=="/"):
+    result = 0
+    try:
+      result = x/y
+    except ZeroDivisionError:
+      print("Nelze dělit nulou")
+      exit()
+    return result 
   
 
 
