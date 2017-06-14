@@ -2,7 +2,7 @@
 
 # Terminal based calculator
 #############################
-# Version 0.1
+# Version 0.1b
 # 2017.06.13
 
 def doMath(x, y, act):
