@@ -1,4 +1,4 @@
-#!/bin/python3
+#!/bin/python2
 
 # Terminal based calculator
 #############################
@@ -26,5 +26,6 @@ def doMath(x, y, act):
 x = int(input("insert first number and press ENTER..."))
 act=input("enter operation + - * /:  ")
 y = int(input("insert second number and press ENTER..."))
-print(doMath(x, y, act))
+print(doMath(x, y, act)
 
+# diff
