@@ -1,4 +1,4 @@
-#!/bin/python2
+#!/bin/python3
 
 # Terminal based calculator
 #############################
@@ -8,7 +8,6 @@
 def doMath(x, y, act):
   if(act=="+"): # add
     return x+y
-<<<<<<< HEAD
   elif(act=="-"): # sub
     return (x-y)
   elif(act=="*"):  # mul
@@ -21,15 +20,11 @@ def doMath(x, y, act):
       print("Nelze dělit nulou")
       exit()
     return result 
-=======
-
->>>>>>> parent of e526102... New add function
-  
 
 
 x = int(input("insert first number and press ENTER..."))
 act=input("enter operation + - * /:  ")
 y = int(input("insert second number and press ENTER..."))
-print(doMath(x, y, act)
+print(doMath(x, y, act))
 
-# diff
+#diff
