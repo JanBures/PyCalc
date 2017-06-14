@@ -6,13 +6,13 @@
 # 2017.06.13
 
 def doMath(x, y, act):
-  if(act=="+"):
+  if(act=="+"): # add
     return x+y
-  elif(act=="-"):
+  elif(act=="-"): # sub
     return (x-y)
-  elif(act=="*"):
+  elif(act=="*"):  # mul
     return x*y
-  elif(act=="/"):
+  elif(act=="/"):  # div
     result = 0
     try:
       result = x/y
