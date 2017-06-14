@@ -8,6 +8,7 @@
 def doMath(x, y, act):
   if(act=="+"): # add
     return x+y
+<<<<<<< HEAD
   elif(act=="-"): # sub
     return (x-y)
   elif(act=="*"):  # mul
@@ -20,6 +21,9 @@ def doMath(x, y, act):
       print("Nelze dělit nulou")
       exit()
     return result 
+=======
+
+>>>>>>> parent of e526102... New add function
   
 
 
